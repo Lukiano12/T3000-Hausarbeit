@@ -1,0 +1,148 @@
+\documentclass[a4paper, 12pt]{article} % Artikel-Klasse
+
+%---------------------------------------------------------
+% Encoding, language, quotes
+%---------------------------------------------------------
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}       % Deutsche Sprache und Silbentrennung
+\usepackage{csquotes}             % Für korrekte Anführungszeichen
+\usepackage{listings}
+\usepackage{xcolor}
+
+%---------------------------------------------------------
+% Graphics & PDF
+%---------------------------------------------------------
+\usepackage{graphicx}
+\usepackage{pdfpages}             % Einbinden von PDF-Seiten
+\usepackage{caption}              % Verbesserte Bildunterschriften
+\usepackage{subcaption}
+\usepackage{comment}
+
+
+% Customize settings
+% Customize settings for a more compact style
+\lstset{
+    language=Java,                 % Specify Java language for syntax highlighting
+    basicstyle=\ttfamily\small,    % Use smaller monospaced font for code
+    keywordstyle=\color{blue},     % Style for keywords
+    commentstyle=\color{gray},     % Style for comments
+    stringstyle=\color{red},       % Style for strings
+    numbers=none,                  % No line numbers
+    breaklines=true,               % Break long lines
+    frame=none,                    % No frame around the code
+    xleftmargin=0pt,               % Remove left margin
+    xrightmargin=0pt,              % Remove right margin
+    aboveskip=5pt,                 % Reduce space above the code block
+    belowskip=5pt                  % Reduce space below the code block
+}
+
+%---------------------------------------------------------
+% Math, units, spacing, etc.
+%---------------------------------------------------------
+\usepackage{siunitx}
+\usepackage{setspace}
+\usepackage{textgreek}
+
+% Add float package for "H" float option
+\usepackage{float}
+
+%---------------------------------------------------------
+% Other packages
+%---------------------------------------------------------
+\usepackage{ifthen}
+\usepackage{acronym}
+\PassOptionsToPackage{hyphens}{url} % URLs in Hyperlinks umbrechen
+\usepackage[breaklinks=true]{hyperref} 
+\usepackage{array}                % Bessere Tabellenformatierung
+\usepackage{enumitem}             % Kontrolle über Listen-Layouts
+\usepackage{nomencl}
+\usepackage{scrlayer-scrpage}     % Header und Footer
+
+% Adjust header and footer heights
+\setlength{\headheight}{14.5pt}
+\setlength{\footheight}{34.16666pt}
+
+%---------------------------------------------------------
+% Bibliography (biblatex mit Biber)
+%---------------------------------------------------------
+\usepackage[backend=biber, style=numeric]{biblatex}  
+
+\addbibresource{literatur.bib}  
+
+%---------------------------------------------------------
+% Platzhalter
+%---------------------------------------------------------
+\newcommand{\titel}{Muster-Klimaprozess mit Shell in den Haag, weitere Beispiele für Muster-Klimaprozesse}
+\newcommand{\untertitel}{}
+\newcommand{\arbeit}{Seminar}
+\newcommand{\studiengang}{Elektrotechnik}
+\newcommand{\studienrichtung}{Fahrzeugelektronik}
+\newcommand{\autor}{Luka Tadic}
+\newcommand{\abgabe}{}
+\newcommand{\bearbeitungszeitraum}{}
+\newcommand{\matrikelnr}{5726700}
+\newcommand{\kurs}{TFE22-1}
+\newcommand{\firma}{}
+\newcommand{\betreuerfirma}{}
+\newcommand{\gutachterdhbw}{}
+\newcommand{\jahr}{2025}
+
+%---------------------------------------------------------
+% Header und Footer mit Linien
+%---------------------------------------------------------
+\clearpairofpagestyles         % Standard-Stile löschen
+
+% Header with consistent logo placement and line position
+\ohead{%
+    \raisebox{1.5cm}[0pt][0pt]{% Raise the logo well above the line
+        \includegraphics[width=3cm]{images/DHBW_d_R_FN_46mm_4c}%
+    }%
+    \\[-1.5cm] % Move the header line down
+    \rule{\textwidth}{0.4pt} % Horizontal rule for the header line
+}
+
+
+% Footer with consistent alignment and contents below the line
+\setkomafont{pagefoot}{\normalfont} % Ensure consistent font style
+\cfoot{%
+    \rule{\textwidth}{0.4pt}\\ % Horizontal rule
+    \vspace{0.3em} % Small vertical space
+    \begin{tabular}{@{}p{0.33\textwidth}p{0.33\textwidth}p{0.33\textwidth}@{}}
+        \arbeit & \centering \autor & \raggedleft \thepage
+    \end{tabular}
+}
+
+
+\pagestyle{scrheadings}        % Stil aktivieren
+
+%---------------------------------------------------------
+% Dokumentbeginn
+%---------------------------------------------------------
+\begin{document}
+\sloppy
+
+%---------------------------------------------------------
+% Inhaltsverzeichnis
+%---------------------------------------------------------
+\tableofcontents
+
+\clearpage
+
+
+
+\section{Kapitel 1}
+\section{Kapitel 2}
+\section{Kapitel 3}
+\section{Kapitel 4}
+\clearpage
+
+%---------------------------------------------------------
+% Bibliografie
+%---------------------------------------------------------
+\begingroup
+\renewcommand{\bibfont}{\fontsize{13pt}{12pt}\selectfont}  
+\sloppy
+\nocite{*}
+\printbibliography
+
+\end{document}
