@@ -72,19 +72,19 @@
 %---------------------------------------------------------
 % Platzhalter
 %---------------------------------------------------------
-\newcommand{\titel}{Muster-Klimaprozess mit Shell in den Haag, weitere Beispiele für Muster-Klimaprozesse}
+\newcommand{\titel}{Umbau und Inbetriebnahme eines Konzeptfahrzeugs zur Erprobung eines neuen Fahrantriebs}
 \newcommand{\untertitel}{}
-\newcommand{\arbeit}{Seminar}
+\newcommand{\arbeit}{T3000 Hausarbeit}
 \newcommand{\studiengang}{Elektrotechnik}
 \newcommand{\studienrichtung}{Fahrzeugelektronik}
 \newcommand{\autor}{Luka Tadic}
-\newcommand{\abgabe}{}
-\newcommand{\bearbeitungszeitraum}{}
+\newcommand{\abgabe}{14.04.2025}
+\newcommand{\bearbeitungszeitraum}{19.01.2025 - 14.04.2025}
 \newcommand{\matrikelnr}{5726700}
 \newcommand{\kurs}{TFE22-1}
-\newcommand{\firma}{}
-\newcommand{\betreuerfirma}{}
-\newcommand{\gutachterdhbw}{}
+\newcommand{\firma}{Kramer Werke GmbH}
+\newcommand{\betreuerfirma}{Dipl. Ing. Christian Borgmann}
+\newcommand{\gutachterdhbw}{Prof. Dr. Ing. Konrad Reif}
 \newcommand{\jahr}{2025}
 
 %---------------------------------------------------------
@@ -92,10 +92,16 @@
 %---------------------------------------------------------
 \clearpairofpagestyles         % Standard-Stile löschen
 
-% Header with consistent logo placement and line position
+% Header with consistent logo placement for two logos and line position
 \ohead{%
-    \raisebox{1.5cm}[0pt][0pt]{% Raise the logo well above the line
-        \includegraphics[width=3cm]{images/DHBW_d_R_FN_46mm_4c}%
+    \parbox{\textwidth}{% Create a flexible container for both images
+        \raisebox{1.5cm}[0pt][0pt]{% Raise the Kramer logo
+            \includegraphics[width=3cm]{images/kramer.png}%
+        }%
+        \hfill % Horizontal space between the two logos
+        \raisebox{1.5cm}[0pt][0pt]{% Raise the DHBW logo
+            \includegraphics[width=3cm]{images/DHBW_d_R_FN_46mm_4c}%
+        }%
     }%
     \\[-1.5cm] % Move the header line down
     \rule{\textwidth}{0.4pt} % Horizontal rule for the header line
@@ -122,12 +128,156 @@
 \sloppy
 
 %---------------------------------------------------------
+% Titelseite
+%---------------------------------------------------------
+\thispagestyle{empty}  % Kein Header oder Footer auf der Titelseite
+\hypersetup{pageanchor=false}
+
+\begin{titlepage}
+\enlargethispage{4.0cm}
+\sffamily  % Serifenlose Schrift für die Titelseite
+
+% Create a container for both logos at the top
+\parbox{0.5\linewidth}{%
+    \begin{flushleft}
+        \includegraphics[width=0.4\linewidth]{images/kramer.png}\\[5ex] % Kramer logo on the left
+    \end{flushleft}
+}
+\parbox{0.5\linewidth}{%
+    \begin{flushright}
+        \includegraphics[width=0.4\linewidth]{images/DHBW_d_R_FN_46mm_4c}\\[5ex] % DHBW logo on the right
+    \end{flushright}
+}
+
+% Title and information in the center
+\begin{center}
+
+{\fontsize{20.74pt}{24pt}\selectfont
+\textbf{\titel}\\[1.5ex]}
+
+{\fontsize{17pt}{20pt}\selectfont
+\textbf{\arbeit}\\[2ex]}
+
+{\fontsize{14pt}{17pt}\selectfont
+Studiengang \studiengang\\[2ex]}
+
+{\fontsize{12pt}{14pt}\selectfont
+Studienrichtung \studienrichtung\\[1ex]
+Duale Hochschule Baden-Württemberg Ravensburg, Campus Friedrichshafen\\[5ex]
+von\\[1ex]
+\autor\\[15ex]}
+
+\end{center}
+
+% Footer-like table with additional information
+\begin{center}
+{\fontsize{12pt}{14pt}\selectfont
+\begin{tabular}{ll}
+Abgabedatum:                    & \quad \abgabe \\  
+Bearbeitungszeitraum:           & \quad \bearbeitungszeitraum \\  
+Matrikelnummer:                 & \quad \matrikelnr \\  
+Kurs:                           & \quad \kurs \\  
+Dualer Partner:                 & \quad \firma \\ % entfällt bei Studienarbeit
+Betreuerin / Betreuer:          & \quad \betreuerfirma \\  
+Gutachterin / Gutachter:        & \quad \gutachterdhbw \\ [2ex]
+\end{tabular}
+}
+\end{center}
+
+\end{titlepage}
+
+\clearpage
+
+\pagestyle{scrheadings}  % Header und Footer nach Titelseite aktivieren
+\hypersetup{pageanchor=true}
+
+%---------------------------------------------------------
+% Erklärung
+%---------------------------------------------------------
+
+\pagenumbering{Roman}
+
+\section*{Erklärung}
+
+Ich versichere hiermit, dass ich meine \arbeit\ mit dem Thema:
+
+\begin{quote}
+    \textit{\titel}
+\end{quote}
+
+selbstständig verfasst und keine anderen als die angegebenen Quellen und Hilfsmittel benutzt habe.  
+Ich versichere zudem, dass die eingereichte elektronische Fassung mit der gedruckten Fassung übereinstimmt.\\[6ex]
+
+Friedrichshafen, den \today \\[1ex]
+\rule[-0.2cm]{5cm}{0.5pt} \\  
+\autor \\[10ex]
+
+\rmfamily
+
+\clearpage
+
+\section*{Kurzfassung}
+\begin{spacing}{1.8}  % Adjust line spacing
+    \fontsize{14pt}{15pt}\selectfont  % Font size and line spacing
+English translation of the “Kurzfassung”.
+
+\end{spacing}
+
+\clearpage
+%---------------------------------------------------------
+% Abstract
+%---------------------------------------------------------
+\section*{Abstract}
+\begin{spacing}{1.8}  % Adjust line spacing
+    \fontsize{14pt}{15pt}\selectfont  % Font size and line spacing
+English translation of the “Kurzfassung”.
+
+\end{spacing}
+\clearpage
+
+% List of figures
+\addcontentsline*{toc}{section}{Abbildungsverzeichnis}  % Add section to table of contents
+\listoffigures
+
+\clearpage
+
+\section*{Abbkürzungsverzeichnis}
+\begin{spacing}{1.8}  % Adjust line spacing
+    \fontsize{14pt}{15pt}\selectfont  % Font size and line spacing
+
+   \textbf{AoA}  - Angle-of-Arrival
+
+   \textbf{API} - Application Programming Interface
+
+   \textbf{BLE} - Bluetooth Low Energy
+
+   \textbf{DHBW} - Duale Hochschule Baden-Württemberg
+
+   \textbf{FHSS} - Frequency Hopping Spread Spectrum
+
+   \textbf{ISM} - Industrial, Scientific, Medical
+
+   \textbf{LKW} - Lastkraftwagen
+
+   \textbf{DSGVO} - Datenschutz-Grundverordnung
+
+   \textbf{UI} - User Interface
+
+   \textbf{UX} - User Experience
+
+
+\end{spacing}
+
+\clearpage
+
+
+%---------------------------------------------------------
 % Inhaltsverzeichnis
 %---------------------------------------------------------
 \tableofcontents
 
 \clearpage
-
+\pagenumbering{arabic}
 
 
 \section{Kapitel 1}
