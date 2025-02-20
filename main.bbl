@@ -16,32 +16,5 @@
   {}
 \endgroup
 
-
-\refsection{0}
-  \datalist[entry]{nty/global//global/global/global}
-    \entry{8JahreKlimaklage}{online}{}{}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Vor acht Jahren hat der peruanische Bergführer und Kleinbauer Saúl Luciano Lliuya seine zivilrechtliche Klage gegen RWE beim Landgericht in Essen eingereicht. Was damals seinen Anfang nahm, ist heute einer der weltweit meistbeachteten Präzedenzfälle für die Frage geworden, ob einzelne Großemittenten für den Schutz vor Klimarisiken aufkommen müssen.}
-      \field{langid}{ngerman}
-      \field{title}{8 Jahre Klimaklage gegen RWE}
-      \field{urlday}{17}
-      \field{urlmonth}{1}
-      \field{urlyear}{2025}
-      \field{urldateera}{ce}
-      \true{nocite}
-      \verb{file}
-      \verb C:\Users\lnztadil\Zotero\storage\Z6LKZACF\8-jahre-klimaklage-gegen-rwe.html
-      \endverb
-      \verb{urlraw}
-      \verb https://rwe.climatecase.org/de/news/artikel/8-jahre-klimaklage-gegen-rwe
-      \endverb
-      \verb{url}
-      \verb https://rwe.climatecase.org/de/news/artikel/8-jahre-klimaklage-gegen-rwe
-      \endverb
-    \endentry
-  \enddatalist
-\endrefsection
 \endinput
 
