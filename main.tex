@@ -263,7 +263,11 @@ Friedrichshafen, den \today \\[1ex]
 \begin{spacing}{1.8}  % Adjust line spacing
     \fontsize{14pt}{14pt}\selectfont  % Font size and line spacing
 
-
+\begin{acronym}
+    \acro{PoC}{Proof of Concept}
+    \acro{BPC}{Best Point Control}
+    \acro{SAP}{Systemanalyse Programmentwicklung}
+\end{acronym}
 
 \end{spacing}
 
@@ -282,7 +286,7 @@ Friedrichshafen, den \today \\[1ex]
 \section{Einleitung und Motivation}
 \begin{spacing}{1.5}  % Adjust line spacing
 \fontsize{14pt}{14pt}\selectfont  % Font size and line spacing
-Im Rahmen dieses Proof-of-Concept-(PoC)-Umbaus wird untersucht, ob das 
+Im Rahmen dieses \ac{PoC}-Umbaus wird untersucht, ob das 
 geplante Fahrantriebskonzept für die T07/T08-Modelle der Kramer-Telelader 
 die gewünschten Verbesserungen hinsichtlich Leistung, Dynamik und 
 Reststeigfähigkeit erzielt. Ziel des Projekts ist es, die Wettbewerbsfähigkeit
@@ -293,7 +297,7 @@ Der Ausgangspunkt für diese Entwicklung waren die Ergebnisse des
  „Voice of Sales/Voice of Engineering“-Events im Juli 2021, bei dem 
  spezifische Anforderungen an den Fahrantrieb definiert wurden. 
  Wesentliche Optimierungen umfassen die Einführung des Danfoss 
- BPC-Fahrantriebs, der trotz der erzielten Kostenreduzierung eine höhere 
+ \ac{BPC}-Fahrantriebs, der trotz der erzielten Kostenreduzierung eine höhere 
  Leistung sowie ein erhöhtes Drehmoment ermöglicht. Zudem werden Maßnahmen 
  wie die stärkere Absenkung der Dieseldrehzahl auf 1800 U/min zur Reduzierung
   von Geräuschen und Kraftstoffverbrauch sowie die Implementierung 
@@ -316,7 +320,7 @@ Gesamtperformance des Fahrantriebssystems.
 \begin{spacing}{1.5}  % Adjust line spacing
     \fontsize{14pt}{14pt}\selectfont  % Font size and line spacing
 
-Das Ziel dieses Projekts ist die Umsetzung eines Proof-of-Concept-(PoC)-Umbaus
+Das Ziel dieses Projekts ist die Umsetzung eines \ac{PoC}-Umbaus
  an einem vorgegebenen Fahrzeug des Typs 415-38. 
  Dabei soll das neue Fahrantriebskonzept integriert und anschließend, 
  sofern möglich, erfolgreich in Betrieb genommen werden.
@@ -377,7 +381,7 @@ Maßnahmen zur erfolgreichen Implementierung des neuen Fahrantriebskonzepts.
 \subsection{Planung und Vorbereitung}
 Ein zentraler Bestandteil des Projekts war die Dokumentation der relevanten Bauteile. Dazu gehörten die Erfassung von Datenblättern,
  Verkabelungsinformationen sowie die Identifikation weiterer erforderlicher Komponenten. In Abstimmung mit Kollegen wurde geprüft, 
- welche Teile bereits vorhanden waren und welche noch beschafft werden mussten. Die fehlenden Bauteile wurden über das SAP-System ausgebucht 
+ welche Teile bereits vorhanden waren und welche noch beschafft werden mussten. Die fehlenden Bauteile wurden über das \ac{SAP}-System ausgebucht 
  und organisiert.
 
  \subsection{Umbau des Fahrzeugs}
@@ -394,7 +398,7 @@ Ein zentraler Bestandteil des Projekts war die Dokumentation der relevanten Baut
  Besonderes Augenmerk lag auf der korrekten Pin-Belegung (Pinning) sowie der Montage der Bauteile im Fahrzeug, die unter Anleitung und in Abstimmung mit Claus Vogt umgesetzt wurden.
 
  \subsection{Installation der BPC-Software}
-Nach dem mechanischen Umbau wurde die BPC-Software auf 
+Nach dem mechanischen Umbau wurde die \acs{BPC}-Software auf 
 dem entsprechenden Controller installiert. Dies erforderte sowohl hardwareseitige Anpassungen
  als auch softwaretechnische Konfigurationen, die in Zusammenarbeit mit Daniel Sessler durchgeführt wurden. 
  Die korrekte Pin-Belegung (Pinning) wurde mithilfe relevanter Dokumentation überprüft und dokumentiert.
