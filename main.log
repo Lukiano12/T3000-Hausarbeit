@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.9)  28 FEB 2025 13:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.9)  3 MAR 2025 11:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1280,20 +1280,20 @@ Overfull \hbox (20.10214pt too wide) has occurred while \output is active
 [1
 
 ]
-<images/Gannt_Chart.png, id=94, 722.7pt x 433.62pt>
-File: images/Gannt_Chart.png Graphic file (type png)
-<use images/Gannt_Chart.png>
-Package pdftex.def Info: images/Gannt_Chart.png  used on input line 326.
+<images/Gantt_Chart.png, id=94, 722.7pt x 433.62pt>
+File: images/Gantt_Chart.png Graphic file (type png)
+<use images/Gantt_Chart.png>
+Package pdftex.def Info: images/Gantt_Chart.png  used on input line 317.
 (pdftex.def)             Requested size: 390.0pt x 233.99913pt.
 
 
 File: images/kramer.png Graphic file (type png)
 <use images/kramer.png>
-Package pdftex.def Info: images/kramer.png  used on input line 331.
+Package pdftex.def Info: images/kramer.png  used on input line 322.
 (pdftex.def)             Requested size: 85.35826pt x 19.65062pt.
 File: images/DHBW_d_R_FN_46mm_4c.jpg Graphic file (type jpg)
 <use images/DHBW_d_R_FN_46mm_4c.jpg>
-Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 331.
+Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 322.
 (pdftex.def)             Requested size: 85.35826pt x 47.19005pt.
 
 Package scrlayer-scrpage Warning: \headheight to low.
@@ -1304,7 +1304,7 @@ Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                e.g., using
 (scrlayer-scrpage)                  \setlength{\headheight}{22.57086pt}
 (scrlayer-scrpage)                in your preamble.
-(scrlayer-scrpage)                I'll also decrease \topmargin on input line 331.
+(scrlayer-scrpage)                I'll also decrease \topmargin on input line 322.
 
 
 Overfull \vbox (8.07086pt too high) has occurred while \output is active []
@@ -1323,32 +1323,32 @@ Package scrlayer-scrpage Warning: \footheight to low.
 (scrlayer-scrpage)                e.g., using
 (scrlayer-scrpage)                  \setlength{\footheight}{71.1249pt}
 (scrlayer-scrpage)                in your preamble.
-(scrlayer-scrpage)                I'll also increase \footskip on input line 331.
+(scrlayer-scrpage)                I'll also increase \footskip on input line 322.
 
 [2]
 
 File: images/kramer.png Graphic file (type png)
 <use images/kramer.png>
-Package pdftex.def Info: images/kramer.png  used on input line 342.
+Package pdftex.def Info: images/kramer.png  used on input line 333.
 (pdftex.def)             Requested size: 85.35826pt x 19.65062pt.
 File: images/DHBW_d_R_FN_46mm_4c.jpg Graphic file (type jpg)
 <use images/DHBW_d_R_FN_46mm_4c.jpg>
-Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 342.
+Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 333.
 (pdftex.def)             Requested size: 85.35826pt x 47.19005pt.
 
 Overfull \hbox (20.10214pt too wide) has occurred while \output is active
  [][] 
  []
 
-[3 <./images/Gannt_Chart.png>]
+[3 <./images/Gantt_Chart.png>]
 
 File: images/kramer.png Graphic file (type png)
 <use images/kramer.png>
-Package pdftex.def Info: images/kramer.png  used on input line 365.
+Package pdftex.def Info: images/kramer.png  used on input line 356.
 (pdftex.def)             Requested size: 85.35826pt x 19.65062pt.
 File: images/DHBW_d_R_FN_46mm_4c.jpg Graphic file (type jpg)
 <use images/DHBW_d_R_FN_46mm_4c.jpg>
-Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 365.
+Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 356.
 (pdftex.def)             Requested size: 85.35826pt x 47.19005pt.
 
 Overfull \hbox (20.10214pt too wide) has occurred while \output is active
@@ -1359,11 +1359,11 @@ Overfull \hbox (20.10214pt too wide) has occurred while \output is active
 
 File: images/kramer.png Graphic file (type png)
 <use images/kramer.png>
-Package pdftex.def Info: images/kramer.png  used on input line 366.
+Package pdftex.def Info: images/kramer.png  used on input line 357.
 (pdftex.def)             Requested size: 85.35826pt x 19.65062pt.
 File: images/DHBW_d_R_FN_46mm_4c.jpg Graphic file (type jpg)
 <use images/DHBW_d_R_FN_46mm_4c.jpg>
-Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 366.
+Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 357.
 (pdftex.def)             Requested size: 85.35826pt x 47.19005pt.
 
 Overfull \hbox (20.10214pt too wide) has occurred while \output is active
@@ -1372,7 +1372,7 @@ Overfull \hbox (20.10214pt too wide) has occurred while \output is active
 
 [5]
 
-LaTeX Warning: Empty bibliography on input line 375.
+LaTeX Warning: Empty bibliography on input line 366.
 
 (main.aux)
  ***********
@@ -1396,18 +1396,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 371 (\begingroup)
+### semi simple group (level 1) entered at line 362 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 30856 strings out of 473576
- 624683 string characters out of 5714857
+ 30855 strings out of 473576
+ 624667 string characters out of 5714857
  1497378 words of memory out of 5000000
- 53671 multiletter control sequences out of 15000+600000
+ 53670 multiletter control sequences out of 15000+600000
  564836 words of font info for 58 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  110i,27n,115p,715b,2465s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/lnztadil/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/lnztadil/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/lnztadil/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/lnztadil/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/lnztadil/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (12 pages, 158226 bytes).
+Output written on main.pdf (12 pages, 157866 bytes).
 PDF statistics:
  142 PDF objects out of 1000 (max. 8388607)
  27 named destinations out of 1000 (max. 500000)
