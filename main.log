@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.9)  3 MAR 2025 11:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.9)  3 MAR 2025 13:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1170,14 +1170,24 @@ Package scrlayer-scrpage Warning: \footheight to low.
 [1
 
 ]
+Underfull \hbox (badness 1210) in paragraph at lines 222--225
+\OT1/cmr/m/n/14.4 die Pra-xi-staug-lich-keit ei-nes neu-en Fahran-triebs-kon-zepts zu
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 222--225
+[]\OT1/cmr/m/n/14.4 uberpr[]ufen. Ziel ist es, die Leis-tung, Dy-na-mik und Rest-
+ []
+
+
 
 File: images/kramer.png Graphic file (type png)
 <use images/kramer.png>
-Package pdftex.def Info: images/kramer.png  used on input line 226.
+Package pdftex.def Info: images/kramer.png  used on input line 234.
 (pdftex.def)             Requested size: 85.35826pt x 19.65062pt.
 File: images/DHBW_d_R_FN_46mm_4c.jpg Graphic file (type jpg)
 <use images/DHBW_d_R_FN_46mm_4c.jpg>
-Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 226.
+Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 234.
 (pdftex.def)             Requested size: 85.35826pt x 47.19005pt.
 
 Overfull \hbox (20.10214pt too wide) has occurred while \output is active
@@ -1190,11 +1200,11 @@ Overfull \hbox (20.10214pt too wide) has occurred while \output is active
 
 File: images/kramer.png Graphic file (type png)
 <use images/kramer.png>
-Package pdftex.def Info: images/kramer.png  used on input line 236.
+Package pdftex.def Info: images/kramer.png  used on input line 255.
 (pdftex.def)             Requested size: 85.35826pt x 19.65062pt.
 File: images/DHBW_d_R_FN_46mm_4c.jpg Graphic file (type jpg)
 <use images/DHBW_d_R_FN_46mm_4c.jpg>
-Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 236.
+Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 255.
 (pdftex.def)             Requested size: 85.35826pt x 47.19005pt.
 
 Overfull \hbox (20.10214pt too wide) has occurred while \output is active
@@ -1211,11 +1221,11 @@ Overfull \hbox (20.10214pt too wide) has occurred while \output is active
 
 File: images/kramer.png Graphic file (type png)
 <use images/kramer.png>
-Package pdftex.def Info: images/kramer.png  used on input line 241.
+Package pdftex.def Info: images/kramer.png  used on input line 260.
 (pdftex.def)             Requested size: 85.35826pt x 19.65062pt.
 File: images/DHBW_d_R_FN_46mm_4c.jpg Graphic file (type jpg)
 <use images/DHBW_d_R_FN_46mm_4c.jpg>
-Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 241.
+Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 260.
 (pdftex.def)             Requested size: 85.35826pt x 47.19005pt.
 
 Overfull \hbox (20.10214pt too wide) has occurred while \output is active
@@ -1228,11 +1238,11 @@ Overfull \hbox (20.10214pt too wide) has occurred while \output is active
 
 File: images/kramer.png Graphic file (type png)
 <use images/kramer.png>
-Package pdftex.def Info: images/kramer.png  used on input line 251.
+Package pdftex.def Info: images/kramer.png  used on input line 270.
 (pdftex.def)             Requested size: 85.35826pt x 19.65062pt.
 File: images/DHBW_d_R_FN_46mm_4c.jpg Graphic file (type jpg)
 <use images/DHBW_d_R_FN_46mm_4c.jpg>
-Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 251.
+Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 270.
 (pdftex.def)             Requested size: 85.35826pt x 47.19005pt.
 
 Overfull \hbox (20.10214pt too wide) has occurred while \output is active
@@ -1249,11 +1259,11 @@ Overfull \hbox (20.10214pt too wide) has occurred while \output is active
 
 File: images/kramer.png Graphic file (type png)
 <use images/kramer.png>
-Package pdftex.def Info: images/kramer.png  used on input line 259.
+Package pdftex.def Info: images/kramer.png  used on input line 278.
 (pdftex.def)             Requested size: 85.35826pt x 19.65062pt.
 File: images/DHBW_d_R_FN_46mm_4c.jpg Graphic file (type jpg)
 <use images/DHBW_d_R_FN_46mm_4c.jpg>
-Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 259.
+Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 278.
 (pdftex.def)             Requested size: 85.35826pt x 47.19005pt.
 
 Overfull \hbox (20.10214pt too wide) has occurred while \output is active
@@ -1266,11 +1276,11 @@ Overfull \hbox (20.10214pt too wide) has occurred while \output is active
 
 File: images/kramer.png Graphic file (type png)
 <use images/kramer.png>
-Package pdftex.def Info: images/kramer.png  used on input line 295.
+Package pdftex.def Info: images/kramer.png  used on input line 314.
 (pdftex.def)             Requested size: 85.35826pt x 19.65062pt.
 File: images/DHBW_d_R_FN_46mm_4c.jpg Graphic file (type jpg)
 <use images/DHBW_d_R_FN_46mm_4c.jpg>
-Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 295.
+Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 314.
 (pdftex.def)             Requested size: 85.35826pt x 47.19005pt.
 
 Overfull \hbox (20.10214pt too wide) has occurred while \output is active
@@ -1280,20 +1290,19 @@ Overfull \hbox (20.10214pt too wide) has occurred while \output is active
 [1
 
 ]
-<images/Gantt_Chart.png, id=94, 722.7pt x 433.62pt>
-File: images/Gantt_Chart.png Graphic file (type png)
-<use images/Gantt_Chart.png>
-Package pdftex.def Info: images/Gantt_Chart.png  used on input line 317.
-(pdftex.def)             Requested size: 390.0pt x 233.99913pt.
+Underfull \hbox (badness 1642) in paragraph at lines 337--341
+\OT1/cmr/m/n/14.4 er-folg-rei-chen Um-bau wird das Fahr-zeug ge-tes-tet, um die
+ []
+
 
 
 File: images/kramer.png Graphic file (type png)
 <use images/kramer.png>
-Package pdftex.def Info: images/kramer.png  used on input line 322.
+Package pdftex.def Info: images/kramer.png  used on input line 352.
 (pdftex.def)             Requested size: 85.35826pt x 19.65062pt.
 File: images/DHBW_d_R_FN_46mm_4c.jpg Graphic file (type jpg)
 <use images/DHBW_d_R_FN_46mm_4c.jpg>
-Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 322.
+Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 352.
 (pdftex.def)             Requested size: 85.35826pt x 47.19005pt.
 
 Package scrlayer-scrpage Warning: \headheight to low.
@@ -1304,7 +1313,7 @@ Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                e.g., using
 (scrlayer-scrpage)                  \setlength{\headheight}{22.57086pt}
 (scrlayer-scrpage)                in your preamble.
-(scrlayer-scrpage)                I'll also decrease \topmargin on input line 322.
+(scrlayer-scrpage)                I'll also decrease \topmargin on input line 352.
 
 
 Overfull \vbox (8.07086pt too high) has occurred while \output is active []
@@ -1323,47 +1332,53 @@ Package scrlayer-scrpage Warning: \footheight to low.
 (scrlayer-scrpage)                e.g., using
 (scrlayer-scrpage)                  \setlength{\footheight}{71.1249pt}
 (scrlayer-scrpage)                in your preamble.
-(scrlayer-scrpage)                I'll also increase \footskip on input line 322.
+(scrlayer-scrpage)                I'll also increase \footskip on input line 352.
 
 [2]
+<images/Gantt_Chart.png, id=98, 722.7pt x 433.62pt>
+File: images/Gantt_Chart.png Graphic file (type png)
+<use images/Gantt_Chart.png>
+Package pdftex.def Info: images/Gantt_Chart.png  used on input line 371.
+(pdftex.def)             Requested size: 390.0pt x 233.99913pt.
+
 
 File: images/kramer.png Graphic file (type png)
 <use images/kramer.png>
-Package pdftex.def Info: images/kramer.png  used on input line 333.
+Package pdftex.def Info: images/kramer.png  used on input line 376.
 (pdftex.def)             Requested size: 85.35826pt x 19.65062pt.
 File: images/DHBW_d_R_FN_46mm_4c.jpg Graphic file (type jpg)
 <use images/DHBW_d_R_FN_46mm_4c.jpg>
-Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 333.
+Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 376.
 (pdftex.def)             Requested size: 85.35826pt x 47.19005pt.
 
 Overfull \hbox (20.10214pt too wide) has occurred while \output is active
  [][] 
  []
 
-[3 <./images/Gantt_Chart.png>]
+[3]
 
 File: images/kramer.png Graphic file (type png)
 <use images/kramer.png>
-Package pdftex.def Info: images/kramer.png  used on input line 356.
+Package pdftex.def Info: images/kramer.png  used on input line 387.
 (pdftex.def)             Requested size: 85.35826pt x 19.65062pt.
 File: images/DHBW_d_R_FN_46mm_4c.jpg Graphic file (type jpg)
 <use images/DHBW_d_R_FN_46mm_4c.jpg>
-Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 356.
+Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 387.
 (pdftex.def)             Requested size: 85.35826pt x 47.19005pt.
 
 Overfull \hbox (20.10214pt too wide) has occurred while \output is active
  [][] 
  []
 
-[4]
+[4 <./images/Gantt_Chart.png>]
 
 File: images/kramer.png Graphic file (type png)
 <use images/kramer.png>
-Package pdftex.def Info: images/kramer.png  used on input line 357.
+Package pdftex.def Info: images/kramer.png  used on input line 410.
 (pdftex.def)             Requested size: 85.35826pt x 19.65062pt.
 File: images/DHBW_d_R_FN_46mm_4c.jpg Graphic file (type jpg)
 <use images/DHBW_d_R_FN_46mm_4c.jpg>
-Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 357.
+Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 410.
 (pdftex.def)             Requested size: 85.35826pt x 47.19005pt.
 
 Overfull \hbox (20.10214pt too wide) has occurred while \output is active
@@ -1372,7 +1387,22 @@ Overfull \hbox (20.10214pt too wide) has occurred while \output is active
 
 [5]
 
-LaTeX Warning: Empty bibliography on input line 366.
+File: images/kramer.png Graphic file (type png)
+<use images/kramer.png>
+Package pdftex.def Info: images/kramer.png  used on input line 411.
+(pdftex.def)             Requested size: 85.35826pt x 19.65062pt.
+File: images/DHBW_d_R_FN_46mm_4c.jpg Graphic file (type jpg)
+<use images/DHBW_d_R_FN_46mm_4c.jpg>
+Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 411.
+(pdftex.def)             Requested size: 85.35826pt x 47.19005pt.
+
+Overfull \hbox (20.10214pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[6]
+
+LaTeX Warning: Empty bibliography on input line 420.
 
 (main.aux)
  ***********
@@ -1396,20 +1426,20 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 362 (\begingroup)
+### semi simple group (level 1) entered at line 416 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 30855 strings out of 473576
- 624667 string characters out of 5714857
+ 30857 strings out of 473576
+ 624688 string characters out of 5714857
  1497378 words of memory out of 5000000
- 53670 multiletter control sequences out of 15000+600000
+ 53671 multiletter control sequences out of 15000+600000
  564836 words of font info for 58 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  110i,27n,115p,715b,2465s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/lnztadil/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/lnztadil/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/lnztadil/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/lnztadil/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/lnztadil/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (12 pages, 157866 bytes).
+Output written on main.pdf (13 pages, 162300 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
- 27 named destinations out of 1000 (max. 500000)
+ 147 PDF objects out of 1000 (max. 8388607)
+ 28 named destinations out of 1000 (max. 500000)
  80 words of extra memory for PDF output out of 10000 (max. 10000000)
 
