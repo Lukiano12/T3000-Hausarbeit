@@ -16,5 +16,120 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{Breunig2023}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=7731b2b61a54460525af6829e653ea9d}{%
+           family={Breunig},
+           familyi={B\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Kramer-Werke GmbH}%
+      }
+      \list{location}{1}{%
+        {Wacker Neuson Straße 1, 88630 Pfullendorf, Deutschland}%
+      }
+      \strng{namehash}{7731b2b61a54460525af6829e653ea9d}
+      \strng{fullhash}{7731b2b61a54460525af6829e653ea9d}
+      \strng{fullhashraw}{7731b2b61a54460525af6829e653ea9d}
+      \strng{bibnamehash}{7731b2b61a54460525af6829e653ea9d}
+      \strng{authorbibnamehash}{7731b2b61a54460525af6829e653ea9d}
+      \strng{authornamehash}{7731b2b61a54460525af6829e653ea9d}
+      \strng{authorfullhash}{7731b2b61a54460525af6829e653ea9d}
+      \strng{authorfullhashraw}{7731b2b61a54460525af6829e653ea9d}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{7}
+      \field{note}{Interne Dokumentation}
+      \field{title}{{Lastenheft – PGP, Teleskoplader T07 / T08, Facelift-Projekt Typ 415/416-5x}}
+      \field{type}{techreport}
+      \field{version}{05}
+      \field{year}{2023}
+      \true{nocite}
+    \endentry
+    \entry{BreunigHirt2018}{report}{}{}
+      \name{author}{2}{}{%
+        {{hash=7731b2b61a54460525af6829e653ea9d}{%
+           family={Breunig},
+           familyi={B\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e98c68ee1c747feb782d748e9ec78b13}{%
+           family={Hirt},
+           familyi={H\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Kramer-Werke GmbH}%
+      }
+      \list{location}{1}{%
+        {Wacker Neuson Straße 1, 88630 Pfullendorf, Deutschland}%
+      }
+      \strng{namehash}{76151f4c8155b98ed59e0c5a015003b7}
+      \strng{fullhash}{76151f4c8155b98ed59e0c5a015003b7}
+      \strng{fullhashraw}{76151f4c8155b98ed59e0c5a015003b7}
+      \strng{bibnamehash}{76151f4c8155b98ed59e0c5a015003b7}
+      \strng{authorbibnamehash}{76151f4c8155b98ed59e0c5a015003b7}
+      \strng{authornamehash}{76151f4c8155b98ed59e0c5a015003b7}
+      \strng{authorfullhash}{76151f4c8155b98ed59e0c5a015003b7}
+      \strng{authorfullhashraw}{76151f4c8155b98ed59e0c5a015003b7}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{Interne Dokumentation}
+      \field{title}{{Lastenheft / Pflichtenheft – PGP, Teleskoplader 415/416 Stufe V}}
+      \field{type}{techreport}
+      \field{version}{03}
+      \field{year}{2018}
+      \true{nocite}
+    \endentry
+    \entry{Hirt2025}{report}{}{}
+      \name{author}{2}{}{%
+        {{hash=e98c68ee1c747feb782d748e9ec78b13}{%
+           family={Hirt},
+           familyi={H\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d78ef5265982340584377a440af4861e}{%
+           family={Projekt-Team},
+           familyi={P\bibinithyphendelim T\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Kramer Werke GmbH}%
+      }
+      \list{location}{1}{%
+        {Wacker Neuson Straße 1, 88630 Pfullendorf, Deutschland}%
+      }
+      \strng{namehash}{9d405a855cde488956753c7465f9d3ac}
+      \strng{fullhash}{9d405a855cde488956753c7465f9d3ac}
+      \strng{fullhashraw}{9d405a855cde488956753c7465f9d3ac}
+      \strng{bibnamehash}{9d405a855cde488956753c7465f9d3ac}
+      \strng{authorbibnamehash}{9d405a855cde488956753c7465f9d3ac}
+      \strng{authornamehash}{9d405a855cde488956753c7465f9d3ac}
+      \strng{authorfullhash}{9d405a855cde488956753c7465f9d3ac}
+      \strng{authorfullhashraw}{9d405a855cde488956753c7465f9d3ac}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{note}{Interne Dokumentation}
+      \field{title}{{Pflichtenheft T07 - Konzeptbeschreibungen, Teil 2}}
+      \field{type}{techreport}
+      \field{version}{2.0}
+      \field{year}{2025}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
