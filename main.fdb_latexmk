@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1741246723.80384 "main.bcf" "main.bbl" "main" 1741248092.42177 0
+["biber main"] 1741246723.80384 "main.bcf" "main.bbl" "main" 1741254155.09159 0
   "literatur.bib" 1741246721 1144 4ec4711f2e042169b4688c0795ee3689 ""
-  "main.bcf" 1741248091 108556 0e3bab7c713e3380c6b13d1ecee53ced "pdflatex"
+  "main.bcf" 1741254153 108556 0e3bab7c713e3380c6b13d1ecee53ced "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1741248088.1044 "g:/T3000 Hausarbeit/main.tex" "main.pdf" "main" 1741248092.42763 0
+["pdflatex"] 1741254145.19094 "g:/T3000 Hausarbeit/main.tex" "main.pdf" "main" 1741254155.09721 0
   "C:/Users/lnztadil/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1741006485 122523 388333b97d2e433b66eb03fb8990bdc8 ""
   "C:/Users/lnztadil/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1736418097 11995304 639aba1e8c212e3b0ab6a8aed7b309d5 ""
   "C:/Users/lnztadil/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -148,17 +148,17 @@
   "C:/Users/lnztadil/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729261622 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/lnztadil/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656233319 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/lnztadil/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1693732032 123 a302f2c651a95033260db60e51527ae8 ""
-  "g:/T3000 Hausarbeit/main.tex" 1741248086 17128 c8c9f126d45eb59e352b64131f799028 ""
+  "g:/T3000 Hausarbeit/main.tex" 1741254143 17127 afa6bab84c9027befa4f5fb2632cab24 ""
   "images/DHBW_d_R_FN_46mm_4c.jpg" 1736232917 17946 50287553cf5cb047b6c145a2811653f1 ""
   "images/Gantt_Chart.png" 1740491145 38339 4d668b852142150ce3d3d770fd780b40 ""
   "images/kramer.png" 1737357043 4987 f24fc4c29c6e0166b14c39d4ba0307f6 ""
-  "main.aux" 1741248091 2570 003247df41207e645986556af9572049 "pdflatex"
+  "main.aux" 1741254152 2570 003247df41207e645986556af9572049 "pdflatex"
   "main.bbl" 1741246727 5071 ac336b047150f5a523637ee9c03ea6fd "biber main"
-  "main.lof" 1741248091 136 a4a3da63204fdd758511fc33098ede67 "pdflatex"
-  "main.out" 1741248091 1238 83796b4a0d808c4b1aaa3f63791a6557 "pdflatex"
-  "main.run.xml" 1741248091 2334 1b5b1514c9fec959a0c2940f259774d3 "pdflatex"
-  "main.tex" 1741248086 17128 c8c9f126d45eb59e352b64131f799028 ""
-  "main.toc" 1741248091 679 177aa8166467177b11dde77ef1e92e9d "pdflatex"
+  "main.lof" 1741254153 136 a4a3da63204fdd758511fc33098ede67 "pdflatex"
+  "main.out" 1741254152 1238 83796b4a0d808c4b1aaa3f63791a6557 "pdflatex"
+  "main.run.xml" 1741254153 2334 1b5b1514c9fec959a0c2940f259774d3 "pdflatex"
+  "main.tex" 1741254143 17127 afa6bab84c9027befa4f5fb2632cab24 ""
+  "main.toc" 1741254153 679 177aa8166467177b11dde77ef1e92e9d "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"
