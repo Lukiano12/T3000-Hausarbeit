@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.9)  6 MAR 2025 14:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.9)  7 MAR 2025 11:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1381,11 +1381,11 @@ Overfull \hbox (20.10214pt too wide) has occurred while \output is active
 
 File: images/kramer.png Graphic file (type png)
 <use images/kramer.png>
-Package pdftex.def Info: images/kramer.png  used on input line 425.
+Package pdftex.def Info: images/kramer.png  used on input line 427.
 (pdftex.def)             Requested size: 85.35826pt x 19.65062pt.
 File: images/DHBW_d_R_FN_46mm_4c.jpg Graphic file (type jpg)
 <use images/DHBW_d_R_FN_46mm_4c.jpg>
-Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 425.
+Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 427.
 (pdftex.def)             Requested size: 85.35826pt x 47.19005pt.
 
 Overfull \hbox (20.10214pt too wide) has occurred while \output is active
@@ -1393,14 +1393,19 @@ Overfull \hbox (20.10214pt too wide) has occurred while \output is active
  []
 
 [5]
+Underfull \hbox (badness 10000) in paragraph at lines 433--436
+[]\OT1/cmr/m/n/14.4 Langfristig dient die-ses Pro-jekt da-zu, die Wett-be-
+ []
+
+
 
 File: images/kramer.png Graphic file (type png)
 <use images/kramer.png>
-Package pdftex.def Info: images/kramer.png  used on input line 432.
+Package pdftex.def Info: images/kramer.png  used on input line 438.
 (pdftex.def)             Requested size: 85.35826pt x 19.65062pt.
 File: images/DHBW_d_R_FN_46mm_4c.jpg Graphic file (type jpg)
 <use images/DHBW_d_R_FN_46mm_4c.jpg>
-Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 432.
+Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 438.
 (pdftex.def)             Requested size: 85.35826pt x 47.19005pt.
 
 Overfull \hbox (20.10214pt too wide) has occurred while \output is active
@@ -1410,21 +1415,21 @@ Overfull \hbox (20.10214pt too wide) has occurred while \output is active
 [6]
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <13> not available
-(Font)              size <12> substituted on input line 441.
+(Font)              size <12> substituted on input line 447.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <13> not available
-(Font)              size <12> substituted on input line 441.
+(Font)              size <12> substituted on input line 447.
 
 
 
 File: images/kramer.png Graphic file (type png)
 <use images/kramer.png>
-Package pdftex.def Info: images/kramer.png  used on input line 443.
+Package pdftex.def Info: images/kramer.png  used on input line 449.
 (pdftex.def)             Requested size: 85.35826pt x 19.65062pt.
 File: images/DHBW_d_R_FN_46mm_4c.jpg Graphic file (type jpg)
 <use images/DHBW_d_R_FN_46mm_4c.jpg>
-Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 443.
+Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 449.
 (pdftex.def)             Requested size: 85.35826pt x 47.19005pt.
 
 Overfull \hbox (20.10214pt too wide) has occurred while \output is active
@@ -1451,7 +1456,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 437 (\begingroup)
+### semi simple group (level 1) entered at line 443 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
  31117 strings out of 473576
@@ -1462,9 +1467,9 @@ Here is how much of TeX's memory you used:
  1143 hyphenation exceptions out of 8191
  110i,26n,120p,715b,2465s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/lnztadil/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/lnztadil/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/lnztadil/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/lnztadil/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/lnztadil/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (14 pages, 174167 bytes).
+Output written on main.pdf (14 pages, 175853 bytes).
 PDF statistics:
- 182 PDF objects out of 1000 (max. 8388607)
+ 185 PDF objects out of 1000 (max. 8388607)
  39 named destinations out of 1000 (max. 500000)
  80 words of extra memory for PDF output out of 10000 (max. 10000000)
 
