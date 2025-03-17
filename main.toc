@@ -6,4 +6,4 @@
 \contentsline {subsection}{\numberline {3.2}Umbau des Fahrzeugs}{5}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Installation der BPC-Software}{5}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}Inbetriebnahme}{6}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Ausblick}{6}{section.4}%
+\contentsline {section}{\numberline {4}Ergebnisse und Ausblick}{6}{section.4}%
