@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.9)  25 MAR 2025 07:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.9)  25 MAR 2025 08:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1340,20 +1340,17 @@ Package scrlayer-scrpage Warning: \footheight to low.
 (scrlayer-scrpage)                I'll also increase \footskip on input line 354.
 
 [2]
-
-LaTeX Warning: Reference `ABBILDUNGEN' on page 3 undefined on input line 366.
-
 Package acronym Info: Label `acro:SAP' newly defined as it shall be overridden
-although it is yet undefined on input line 373.
+although it is yet undefined on input line 372.
 
 
 File: images/kramer.png Graphic file (type png)
 <use images/kramer.png>
-Package pdftex.def Info: images/kramer.png  used on input line 375.
+Package pdftex.def Info: images/kramer.png  used on input line 379.
 (pdftex.def)             Requested size: 85.35826pt x 19.65062pt.
 File: images/DHBW_d_R_FN_46mm_4c.jpg Graphic file (type jpg)
 <use images/DHBW_d_R_FN_46mm_4c.jpg>
-Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 375.
+Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 379.
 (pdftex.def)             Requested size: 85.35826pt x 47.19005pt.
 
 Overfull \hbox (20.10214pt too wide) has occurred while \output is active
@@ -1364,11 +1361,11 @@ Overfull \hbox (20.10214pt too wide) has occurred while \output is active
 
 File: images/kramer.png Graphic file (type png)
 <use images/kramer.png>
-Package pdftex.def Info: images/kramer.png  used on input line 399.
+Package pdftex.def Info: images/kramer.png  used on input line 398.
 (pdftex.def)             Requested size: 85.35826pt x 19.65062pt.
 File: images/DHBW_d_R_FN_46mm_4c.jpg Graphic file (type jpg)
 <use images/DHBW_d_R_FN_46mm_4c.jpg>
-Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 399.
+Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 398.
 (pdftex.def)             Requested size: 85.35826pt x 47.19005pt.
 
 Overfull \hbox (20.10214pt too wide) has occurred while \output is active
@@ -1379,11 +1376,11 @@ Overfull \hbox (20.10214pt too wide) has occurred while \output is active
 
 File: images/kramer.png Graphic file (type png)
 <use images/kramer.png>
-Package pdftex.def Info: images/kramer.png  used on input line 425.
+Package pdftex.def Info: images/kramer.png  used on input line 424.
 (pdftex.def)             Requested size: 85.35826pt x 19.65062pt.
 File: images/DHBW_d_R_FN_46mm_4c.jpg Graphic file (type jpg)
 <use images/DHBW_d_R_FN_46mm_4c.jpg>
-Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 425.
+Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 424.
 (pdftex.def)             Requested size: 85.35826pt x 47.19005pt.
 
 Overfull \hbox (20.10214pt too wide) has occurred while \output is active
@@ -1391,7 +1388,7 @@ Overfull \hbox (20.10214pt too wide) has occurred while \output is active
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 426--429
+Underfull \hbox (badness 10000) in paragraph at lines 425--428
 []\OT1/cmr/m/n/14.4 Langfristig dient die-ses Pro-jekt da-zu, die Wett-be-
  []
 
@@ -1399,11 +1396,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 426--429
 
 File: images/kramer.png Graphic file (type png)
 <use images/kramer.png>
-Package pdftex.def Info: images/kramer.png  used on input line 431.
+Package pdftex.def Info: images/kramer.png  used on input line 430.
 (pdftex.def)             Requested size: 85.35826pt x 19.65062pt.
 File: images/DHBW_d_R_FN_46mm_4c.jpg Graphic file (type jpg)
 <use images/DHBW_d_R_FN_46mm_4c.jpg>
-Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 431.
+Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 430.
 (pdftex.def)             Requested size: 85.35826pt x 47.19005pt.
 
 Overfull \hbox (20.10214pt too wide) has occurred while \output is active
@@ -1413,21 +1410,21 @@ Overfull \hbox (20.10214pt too wide) has occurred while \output is active
 [6]
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <13> not available
-(Font)              size <12> substituted on input line 440.
+(Font)              size <12> substituted on input line 439.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <13> not available
-(Font)              size <12> substituted on input line 440.
+(Font)              size <12> substituted on input line 439.
 
 
 
 File: images/kramer.png Graphic file (type png)
 <use images/kramer.png>
-Package pdftex.def Info: images/kramer.png  used on input line 442.
+Package pdftex.def Info: images/kramer.png  used on input line 441.
 (pdftex.def)             Requested size: 85.35826pt x 19.65062pt.
 File: images/DHBW_d_R_FN_46mm_4c.jpg Graphic file (type jpg)
 <use images/DHBW_d_R_FN_46mm_4c.jpg>
-Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 442.
+Package pdftex.def Info: images/DHBW_d_R_FN_46mm_4c.jpg  used on input line 441.
 (pdftex.def)             Requested size: 85.35826pt x 47.19005pt.
 
 Overfull \hbox (20.10214pt too wide) has occurred while \output is active
@@ -1446,9 +1443,6 @@ L3 programming layer <2024-12-09>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D43DD0CC86BCC84C89DF205A108CE65F;1319.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1457,18 +1451,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 436 (\begingroup)
+### semi simple group (level 1) entered at line 435 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 31109 strings out of 473576
- 629747 string characters out of 5714857
+ 31108 strings out of 473576
+ 629734 string characters out of 5714857
  1497668 words of memory out of 5000000
- 53912 multiletter control sequences out of 15000+600000
+ 53911 multiletter control sequences out of 15000+600000
  565524 words of font info for 60 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  110i,26n,120p,715b,2465s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\lnztadil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk><C:/Users/lnztadil/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/lnztadil/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/lnztadil/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/lnztadil/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/lnztadil/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (14 pages, 145478 bytes).
+Output written on main.pdf (14 pages, 145171 bytes).
 PDF statistics:
  185 PDF objects out of 1000 (max. 8388607)
  38 named destinations out of 1000 (max. 500000)
