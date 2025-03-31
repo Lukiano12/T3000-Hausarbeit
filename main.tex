@@ -258,9 +258,7 @@ Friedrichshafen, den \today \\[1ex]
 \clearpage
 
 % List of figures
-\listoffigures
-
-\clearpage
+%\listoffigures
 
 \section*{Abkürzungsverzeichnis}
 \begin{spacing}{1.8}  % Adjust line spacing
@@ -270,6 +268,7 @@ Friedrichshafen, den \today \\[1ex]
     \acro{PoC}{Proof of Concept}
     \acro{BPC}{Best Point Control}
     \acro{SAP}{Systemanalyse Programmentwicklung}
+    \acro{CAN}{Controller Area Network}
 \end{acronym}
 
 \end{spacing}
@@ -373,42 +372,42 @@ Ein zentraler Bestandteil des Projekts war die Dokumentation der relevanten Baut
  und organisiert.
 
  \subsection{Umbau des Fahrzeugs}
- Der eigentliche Umbau des Fahrzeugs erfolgte in Zusammenarbeit mit Claus Vogt. Dabei wurden verschiedene
+ Der eigentliche Umbau des Fahrzeugs erfolgte in Zusammenarbeit mit Claus Vogt (System Engineer Electrics). Dabei wurden verschiedene
  mechanische und elektrische Anpassungen vorgenommen, um die neuen Bauteile zu integrieren. 
  Zu den durchgeführten Arbeiten gehörten:
  
- \begin{itemize}
-    \item Modifikation der vorhandenen Hardwarekomponenten
-    \item Installation der neuen Bauteile gemäß den technischen Spezifikationen
-    \item  Anpassung der Verkabelung und Integration in das bestehende System
-    \item Leistung, Dynamik und Reststeigfähigkeit
- \end{itemize}
+    \begin{itemize}
+        \item Modifikation der vorhandenen Hardwarekomponenten: Anpassung der Verkabelung des nötigen Steuergeräts, Durchführung von Anpassungen am Fahrzeug, einschließlich der Verlegung der erforderlichen Kabel (\acf{CAN}-Bus, Versorgungsspannung) für eine optimale Integration der neuen Komponenten.
+        \item Installation der neuen Bauteile gemäß den technischen Spezifikationen: Montage und elektrischer Anschluss neuer Komponenten unter Berücksichtigung der relevanten Vorgaben.
+        \item Anpassung der Verkabelung und Integration in das bestehende System: Abmessung der benötigten Kabellängen für die Komponenten, Einfügen von Splice-Punkten an relevanten Stellen, um eine stabile Verbindung und korrekte Spannungsversorgung (zusätzliche Versorgungsspannungskabel, Ground-Kabel) zu gewährleisten.
+    \end{itemize}
 
  Besonderes Augenmerk lag auf der korrekten Pin-Belegung (Pinning) sowie der Montage der Bauteile im Fahrzeug, 
  die unter Anleitung und in Abstimmung mit Claus Vogt umgesetzt wurden.
 
  \subsection{Installation der BPC-Software}
-Nach dem mechanischen Umbau wurde die \acs{BPC}-Software auf 
-dem entsprechenden Controller installiert. Dies erforderte sowohl hardwareseitige Anpassungen
- als auch softwaretechnische Konfigurationen, die in Zusammenarbeit mit Daniel Sessler durchgeführt wurden. 
- Die korrekte Pin-Belegung (Pinning) wurde mithilfe relevanter Dokumentation überprüft und dokumentiert.
+ Nach dem mechanischen Umbau soll die \acs{BPC}-Software auf dem entsprechenden Controller installiert werden. 
+ Dies erfordert sowohl hardwareseitige Anpassungen als auch softwaretechnische Konfigurationen, die in Zusammenarbeit mit Daniel 
+Sessler (System Engineer Software \& Electronics) durchgeführt werden sollen. Die korrekte Pin-Belegung (Pinning) wird mithilfe relevanter Dokumentation überprüft und dokumentiert.
+ 
 
-\subsection{Inbetriebnahme}
-Nach der Installation und Validierung der neuen \acs{BPC}-Software wurde das Fahrzeug in Betrieb genommen und getestet. Dabei wurde überprüft, 
-ob die Erwartungen an den neuen Fahrantrieb im \acs{PoC}-Fahrzeug erfüllt wurden.
-
-Im Rahmen der Tests wurden alle relevanten Parameter kontrolliert und 
-die Funktionalität der neu integrierten Komponenten sichergestellt. Dazu gehörten insbesondere:
-
-\begin{itemize}
-    \item Die neu eingebauten Keypads
-    \item Das Rafi Gen2 Display
-    \item Die Hill-Hold-Funktion
-\end{itemize}
-
-Durch die Inbetriebnahme konnte festgestellt werden, 
-ob die geplanten Optimierungen erfolgreich umgesetzt wurden und das Fahrantriebskonzept 
-die gewünschten Verbesserungen erzielt.
+ \subsection{Inbetriebnahme}
+ Nach der Installation und Validierung der neuen \acs{BPC}-Software soll das Fahrzeug in Betrieb genommen und getestet werden. Dabei wird überprüft, 
+ ob die Erwartungen an den neuen Fahrantrieb im \acs{PoC}-Fahrzeug erfüllt werden.
+ 
+ Im Rahmen der Tests sollen alle relevanten Parameter kontrolliert und 
+ die Funktionalität der neu integrierten Komponenten sichergestellt werden. Dazu gehören insbesondere:
+ 
+ \begin{itemize}
+     \item Die neu eingebauten Keypads
+     \item Das Rafi Gen2 Display
+     \item Die Hill-Hold-Funktion
+ \end{itemize}
+ 
+ Durch die Inbetriebnahme soll festgestellt werden, 
+ ob die geplanten Optimierungen erfolgreich umgesetzt wurden und das Fahrantriebskonzept 
+ die gewünschten Verbesserungen erzielt.
+ 
 \end{spacing}
 
 \section{Ergebnisse und Ausblick}
@@ -416,17 +415,32 @@ die gewünschten Verbesserungen erzielt.
     \fontsize{14pt}{14pt}\selectfont  % Font size and line spacing
     Im Verlauf des Projekts konnten wertvolle Erkenntnisse gewonnen werden, die als Grundlage für zukünftige Weiterentwicklungen dienen. 
     Die Umsetzung des \acf{PoC}-Umbaus hat gezeigt, welche Optimierungen am Fahrantriebskonzept erfolgreich waren und welche
-     Aspekte weiter verbessert werden können.
+    Aspekte weiter verbessert werden können.
+
+    Im Rahmen der Arbeiten wurden alle erforderlichen Kabel und Komponenten für den Umbau beschafft. 
+    Die Kabelsätze wurden vorbereitet, indem sie abgemessen, gepinnt und für den Einbau vorkonfektioniert wurden. Dadurch können diese 
+    Komponenten direkt installiert werden, sobald die neue Fahrpumpe, die Teil des neuen Fahrantriebs ist, in das Fahrzeug integriert ist. Zudem konnten bereits die Keypads sowie 
+    das Rafi Gen2 Display erfolgreich angeschlossen werden, sodass sie für zukünftige Anwendungen genutzt werden können.
+
+    Leider konnte innerhalb des verfügbaren Zeitraums nicht das gesamte Vorhaben abgeschlossen werden, da die Fahrpumpe 
+    noch nicht eingebaut werden konnte. Somit ist der Umbau nur teilweise fertiggestellt, und die abschließende Inbetriebnahme muss von 
+    dem Unternehmen übernommen werden.  
+
+    Trotz dieser Einschränkungen konnten im Verlauf der Projektarbeit viele wertvolle Erkenntnisse gewonnen und 
+    bestehende Prozesse optimiert werden. Dazu gehören unter anderem die detaillierte Dokumentation der Ergebnisse, 
+    die Nutzung von Programmen wie Microsoft Visio zur Erstellung von Systemschaltbildern verschiedener Fahrzeuge sowie die 
+    korrekte Verkabelung der Fahrzeugkomponenten.
 
     Nach Abschluss dieser Phase wird das Projekt mit dem Umbau des Hydraulik-\acs{PoC} fortgesetzt. Anschließend 
     folgt die Beschaffung und Vorbereitung für den ersten Prototypenbau des Konzeptfahrzeugs. Die gewonnenen 
     Erfahrungen aus diesem \acs{PoC} fließen direkt in die nächste Entwicklungsstufe ein, um die Praxistauglichkeit und Effizienz 
     des neuen Fahrantriebskonzepts weiter zu optimieren.
-    
+
     Langfristig dient dieses Projekt dazu, die Wettbewerbsfähigkeit der Kramer Telelader durch innovative 
     Technologien weiter zu steigern und die Effizienz sowie die Leistungsfähigkeit der Fahrzeuge nachhaltig
-     zu verbessern.
+    zu verbessern.
 \end{spacing}
+
 
 \clearpage
 
