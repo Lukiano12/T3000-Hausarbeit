@@ -353,7 +353,8 @@ INPUT .\images\DHBW_d_R_FN_46mm_4c.jpg
 INPUT .\main.toc
 INPUT .\main.toc
 INPUT main.toc
-INPUT C:\Users\lnztadil\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\lnztadil\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Users\lnztadil\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
 OUTPUT main.toc
 INPUT .\images\kramer.png
 INPUT .\images\kramer.png
