@@ -2,8 +2,7 @@
 \contentsline {section}{\numberline {1}Einleitung und Motivation}{1}{section.1}%
 \contentsline {section}{\numberline {2}Zielsetzung}{2}{section.2}%
 \contentsline {section}{\numberline {3}Ablauf Umbau und Inbetriebnahme}{3}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Planung und Vorbereitung}{3}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Umbau des Fahrzeugs}{4}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Installation der BPC-Software}{5}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Inbetriebnahme}{5}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Ergebnisse und Ausblick}{6}{section.4}%
+\contentsline {subsection}{\numberline {3.1}Umbau des Fahrzeugs}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Installation der BPC-Software}{4}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Inbetriebnahme}{5}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Ergebnisse und Ausblick}{5}{section.4}%

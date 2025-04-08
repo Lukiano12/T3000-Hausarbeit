@@ -222,16 +222,18 @@ Friedrichshafen, den \today \\[1ex]
 \section*{Kurzfassung}
 \begin{spacing}{1.8}  % Adjust line spacing
     \fontsize{14pt}{14pt}\selectfont  % Font size and line spacing
-    Im Rahmen dieses Projekts wird ein \acf{PoC}-Umbau an einem Kramer 415–38 Fahrzeug durchgeführt, 
-    um die Praxistauglichkeit eines neuen Fahrantriebskonzepts zu überprüfen. Ziel ist es, die Leistung, 
-    Dynamik und Reststeigfähigkeit des Fahrzeugs zu verbessern sowie Geräusch- und Kraftstoffverbrauch zu reduzieren.
+    Im Rahmen dieses Projekts wird ein \acf{PoC}-Umbau an einem Kramer 415–38 Fahrzeug durchgeführt,
+um die Praxistauglichkeit eines neuen Fahrantriebskonzepts zu überprüfen. Ziel ist es, die Leistung,
+Dynamik und Reststeigfähigkeit des Fahrzeugs zu verbessern sowie Geräuschreduzierung und Kraftstoffverbrauch zu reduzieren.
 
-    Der Umbau umfasst die Integration neuer Komponenten, darunter der Danfoss \ac{BPC}-Fahrantrieb, 
-    eine Servobremse mit Hill-Hold-Funktion, das Rafi Gen2 Display sowie der Einbau der neuen Keypads 
-    mit unterschiedlichen Fahrmodi Optionen. Die Umsetzung erfolgt in Zusammenarbeit mit Claus Vogt (mechanischer Umbau) und 
-    Daniel Sessler (Softwareintegration). Nach dem Einbau wird das Fahrzeug getestet, um zu evaluieren, ob die gewünschten Effekte erreicht wurden.
-    
-    Das Projekt soll zeigen, ob sich das neue Fahrantriebskonzept erfolgreich in die T07/T08-Fahrzeugreihe integrieren lässt und somit die Wettbewerbsfähigkeit der Kramer Telelader steigert.
+Der Umbau umfasst die Integration neuer Komponenten, darunter der Danfoss \ac{BPC}-Fahrantrieb,
+eine Servobremse mit Hill-Hold-Funktion, das Rafi Gen2 Display sowie der Einbau der neuen Keypads
+mit unterschiedlichen Fahrmodi-Optionen. Die Umsetzung beinhaltet mechanische Anpassungen sowie die
+Softwareintegration des neuen Systems. Nach dem Einbau wird das Fahrzeug getestet, um zu evaluieren,
+ob die gewünschten Effekte erreicht wurden.
+
+Das Projekt soll zeigen, ob sich das neue Fahrantriebskonzept erfolgreich in die T07/T08-Fahrzeugreihe
+integrieren lässt und somit die Wettbewerbsfähigkeit der Kramer Telelader steigert.
 \end{spacing}
 
 \clearpage
@@ -241,18 +243,18 @@ Friedrichshafen, den \today \\[1ex]
 \section*{Abstract}
 \begin{spacing}{1.8}  % Adjust line spacing
     \fontsize{14pt}{14pt}\selectfont  % Font size and line spacing
-    As part of this project, a \acf{PoC} conversion is bleing carried out on a Kramer 415–38 
-    vehicle to evaluate the feasibility of a new drive system concept. The goal is to 
-    improve the vehicle's performance, dynamics, and gradeability while reducing noise and fuel consumption.
+    As part of this project, a \acf{PoC} conversion will be carried out on a Kramer 415–38 vehicle
+to assess the practicality of a new drive concept. The goal is to improve the vehicle’s performance,
+dynamics, and residual climbing ability while reducing noise and fuel consumption.
 
-    The conversion includes integrating new components such as the Danfoss \ac{BPC} drive system, 
-    a servo brake with a hill-hold function, the Rafi Gen2 display, and the installation of new 
-    keypads with different drive mode options. The implementation is carried out in collaboration with Claus Vogt 
-    (mechanical conversion) and Daniel Sessler (software integration). After installation, the vehicle 
-    will be tested to assess whether the desired effects have been achieved.
-    
-    The project aims to determine whether the new drive system concept can be successfully 
-    integrated into the T07/T08 vehicle series, thereby enhancing the competitiveness of Kramer telehandlers.
+The conversion includes the integration of new components, such as the Danfoss \ac{BPC} drive system,
+a servo brake with a hill-hold function, the Rafi Gen2 display, and the installation of new keypads
+with different driving mode options. The implementation involves mechanical modifications as well as
+software integration of the new system. After installation, the vehicle will be tested to evaluate
+whether the desired effects have been achieved.
+
+The project aims to demonstrate whether the new drive concept can be successfully integrated into the
+T07/T08 vehicle series, thereby enhancing the competitiveness of Kramer telehandlers.
 
 \end{spacing}
 \clearpage
@@ -267,7 +269,6 @@ Friedrichshafen, den \today \\[1ex]
 \begin{acronym}
     \acro{PoC}{Proof of Concept}
     \acro{BPC}{Best Point Control}
-    \acro{SAP}{Systemanalyse Programmentwicklung}
     \acro{CAN}{Controller Area Network}
 \end{acronym}
 
@@ -368,16 +369,9 @@ Der Umbau und die Inbetriebnahme des Fahrzeugs erfolgten in mehreren aufeinander
  Dieses Kapitel beschreibt die wesentlichen Phasen des Umbaus sowie die durchgeführten 
 Maßnahmen zur erfolgreichen Implementierung des neuen Fahrantriebskonzepts. 
 
-\subsection{Planung und Vorbereitung}
-Ein zentraler Bestandteil des Projekts war die Dokumentation der relevanten Bauteile. Dazu gehörten die Erfassung von Datenblättern,
- Verkabelungsinformationen sowie die Identifikation weiterer erforderlicher Komponenten. In Abstimmung mit Kollegen wurde geprüft, 
- welche Teile bereits vorhanden waren und welche noch beschafft werden mussten. Die fehlenden Bauteile wurden über das \ac{SAP}-System ausgebucht 
- und organisiert.
-
  \subsection{Umbau des Fahrzeugs}
- Der eigentliche Umbau des Fahrzeugs erfolgte in Zusammenarbeit mit Claus Vogt (System Engineer Electrics). Dabei wurden verschiedene
- mechanische und elektrische Anpassungen vorgenommen, um die neuen Bauteile zu integrieren. 
- Zu den durchgeführten Arbeiten gehörten:
+ Der eigentliche Umbau des Fahrzeugs umfasste verschiedene mechanische und elektrische Anpassungen,
+um die neuen Bauteile zu integrieren. Dabei wurden unter anderem folgende Arbeiten durchgeführt:
  
     \begin{itemize}
         \item Modifikation der vorhandenen Hardwarekomponenten: Anpassung der Verkabelung des nötigen Steuergeräts, Anpassung der Steckverbinder (verschiedenes Pinning, Probleme mit Kodierung der Steckverbinder), Durchführung von Anpassungen am Fahrzeug, einschließlich der Verlegung der erforderlichen Kabel (\acf{CAN}-Bus, Versorgungsspannung) für eine optimale Integration der neuen Komponenten.
@@ -389,9 +383,9 @@ Ein zentraler Bestandteil des Projekts war die Dokumentation der relevanten Baut
  die unter Anleitung und in Abstimmung mit Claus Vogt umgesetzt wurden.
 
  \subsection{Installation der BPC-Software}
- Nach dem mechanischen Umbau soll die \acs{BPC}-Software auf dem entsprechenden Controller installiert werden. 
- Dies erfordert sowohl hardwareseitige Anpassungen als auch softwaretechnische Konfigurationen, die in Zusammenarbeit mit Daniel 
-Sessler (System Engineer Software \& Electronics) durchgeführt werden sollen. Die korrekte Pin-Belegung (Pinning) wird mithilfe relevanter Dokumentation überprüft und dokumentiert.
+ Nach dem mechanischen Umbau soll die \acs{BPC}-Software auf dem entsprechenden Controller installiert werden.
+ Dies erfordert sowohl hardwareseitige Anpassungen als auch softwaretechnische Konfigurationen, die im Rahmen der Umsetzung erfolgen.
+ Die korrekte Pin-Belegung (Pinning) wird mithilfe relevanter Dokumentation überprüft und dokumentiert.
  
 
  \subsection{Inbetriebnahme}
@@ -399,13 +393,7 @@ Sessler (System Engineer Software \& Electronics) durchgeführt werden sollen. D
  ob die Erwartungen an den neuen Fahrantrieb im \acs{PoC}-Fahrzeug erfüllt werden.
  
  Im Rahmen der Tests sollen alle relevanten Parameter kontrolliert und 
- die Funktionalität der neu integrierten Komponenten sichergestellt werden. Dazu gehören insbesondere:
- 
- \begin{itemize}
-     \item Die neu eingebauten Keypads
-     \item Das Rafi Gen2 Display
-     \item Die Hill-Hold-Funktion
- \end{itemize}
+ die Funktionalität der neu integrierten Komponenten sichergestellt werden. 
  
  Durch die Inbetriebnahme soll festgestellt werden, 
  ob die geplanten Optimierungen erfolgreich umgesetzt wurden und das Fahrantriebskonzept 
@@ -454,6 +442,8 @@ Sessler (System Engineer Software \& Electronics) durchgeführt werden sollen. D
 \renewcommand{\bibfont}{\fontsize{13pt}{12pt}\selectfont}  
 \sloppy
 \nocite{*}
+\begin{spacing}{1.5}  % Adjust line spacing
+\fontsize{14pt}{14pt}\selectfont  % Font size and line spacing
 \printbibliography{}
-
+\end{spacing}
 \end{document}
